@@ -1,0 +1,243 @@
+.all {
+    height: 100%;
+    background: #00B38A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*去掉列表小圆点*/
+li {
+    list-style: none;
+}
+
+/*超链接去掉下划线*/
+a {
+    text-decoration: none;
+}
+
+.clearFixed:after {
+    content: "";
+    clear: both;
+}
+
+.header {
+    height: 50px;
+    background: #32373e;
+    margin: 0 auto;
+}
+
+/*文字上下居中*/
+/*div{*/
+/*    line-height: 40px;*/
+/*}*/
+.header .meanLeft {
+    width: 140px;
+    float: left;
+    background: no-repeat;
+}
+
+.header .meanLeft img {
+    width: 120px;
+    height: 50px;
+}
+
+.header .list li {
+    float: left;
+    width: 70px;
+    text-align: center;
+}
+
+.header .list {
+    line-height: 50px;
+}
+
+.header .list2 {
+    line-height: 50px;
+}
+
+.header .list li a {
+    display: block;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.83);
+}
+
+.header .left {
+    margin-left: 20px;
+}
+
+.header .left .clearFixed .li1 {
+    color: white;
+    background-color: black;
+}
+
+.header .left .clearFixed .li4 {
+    margin-left: 10px;
+}
+
+.header .mean .right {
+    width: 300px;
+    float: right;
+}
+
+.header .right .list2 .li21 {
+    float: left;
+    width: 34px;
+    text-align: center;
+}
+
+.header .right .list2 .li22 {
+    float: left;
+    width: 34px;
+    text-align: center;
+}
+
+.header .right .list2 .li23 {
+    width: 5px;
+    float: left;
+    text-align: center;
+}
+
+.header .list2 li a {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.83);
+}
+
+.header .right .search {
+    margin-right: 20px;
+    height: 20px;
+    width: 200px;
+    float: right;
+}
+
+form {
+    position: relative;
+    width: 203px;
+}
+
+input, button {
+    border: none;
+    outline: none;
+}
+
+.header .right .search input {
+    width: 150px;
+    height: 21px;
+    padding-left: 13px;
+    border: 2px solid rgba(0, 179, 138, 0.6);
+    border-radius: 5px;
+    /*背景设为透明*/
+    background: transparent;
+    top: 0;
+    right: 0;
+    /*设置光标颜色*/
+    caret-color: #dce1e6;
+}
+
+.header .right .search button:before {
+    content: "搜索";
+    font-size: 10px;
+    color: #fff;
+}
+
+.header .right .search button {
+    width: 40px;
+    height: 25px;
+    cursor: pointer;
+    position: absolute;
+    background: rgba(0, 179, 138, 0.92);
+    border-radius: 0 5px 5px 0;
+    top: 14px;
+    right: 0;
+}
+
+/*左菜单栏*/
+.leftMean {
+    height: 470px;
+    width: 240px;
+    float: left;
+    margin-left: -170px;
+}
+
+.leftMean .list3 {
+    width: 203px;
+    margin-left: 35px;
+    height: 460px;
+    background: rgba(85, 85, 85, 0.32);
+}
+
+.leftMean .list3 .mean {
+    /*border: #00b38a 2px solid;*/
+    margin-top: 10px;
+    position: relative;
+}
+
+.leftMean .list3 .mean li {
+    border-bottom: rgba(255, 255, 255, 0.31) 1px solid;
+    line-height: 50px;
+    position: relative;
+}
+
+.leftMean .list3 .mean a {
+    color: white;
+    font-size: 15px;
+    align-content: center;
+    margin-left: 10px;
+}
+
+.leftMean .list3 .mean img {
+    margin-top: 15px;
+    float: right;
+    height: 20px;
+}
+
+.l1 li:hover {
+    background-color: rgba(0, 0, 0, 0.43);
+}
+
+/*轮播图*/
+.box {
+    height: 460px;
+    width: 1349px;
+    margin: 10px;
+    background: url("../mipmap/p2.jpg") no-repeat;
+    background-size: 1349px 480px;
+}
+
+.big ul {
+    height: 30px;
+    width: 1347px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.big {
+    height: 490px;
+    width: 1349px;
+}
+
+.pointer li {
+    width: 10px;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    float: right;
+    margin-left: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.pointer li:hover {
+    background-color: rgba(0, 179, 138, 0.4);
+    border: 2px solid rgba(0, 0, 0, 0.4);
+}
+
+.pointer {
+    position: absolute;
+    right: 50%;
+    width: 60px;
+    top: 502px;
+    float: right;
+}
